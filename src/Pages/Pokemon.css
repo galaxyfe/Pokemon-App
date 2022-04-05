@@ -1,0 +1,28 @@
+.buttons button {
+    border-radius: 9999px;
+    height: 30px;
+    border: 2px solid #367BB4;
+    cursor: pointer;
+    
+}
+
+.buttons {
+    display: flex;
+}
+.buttons button:disabled {
+  border: 2px solid gray;
+  cursor: not-allowed
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    
+    
+}
+
+.Info {
+    padding-top: 20px;
+}
+
